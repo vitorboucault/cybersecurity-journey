@@ -1,6 +1,6 @@
 # Componentes de uma Rede
 
-##Dispositivos Finais
+## Dispositivos Finais
 
 Conhecidos também como host, é qualquer dispositivo que em última instância, acaba enviando ou recebendo dados dentro de uma rede.
 
@@ -34,7 +34,7 @@ Podem ser desenvolvidos para conexão via cabo Ethernet ou wi-fi.
 
 É um dispositivo intermediario que tem um papel importante de encaminhar os pacotes de dados entre as redes, e direciona também o tráfego de internet.
 
-Operando na laser 3 do modelo OSI, eles leem a informação do endereço de rede nos pacotes de dados e determinam os seus destinos.
+Operando na layer 3 do modelo OSI, eles leem a informação do endereço de rede nos pacotes de dados e determinam os seus destinos.
 
 Utilizam protocolos como OSPF (open shortest path first) ou BGP (border gateway protocol) para encontrar o caminho mais eficiente para os dados navegarem pelas redes interconectadas, incluindo a internet.
 
@@ -48,7 +48,9 @@ Os roteadores aumentam a segurança com recursos como firewalls e listas de cont
 
 O papel principal é conectar múltiplos dispositivos na mesma rede.
 
-Operam na camada data link do modelo OSI.
+Operam na camada data link (2) e network layer (3) do modelo OSI.
+
+Entretanto, os que operam na layer 2 não operam 3.
 
 Eles utilizam o endereço MAC para encaminhar dados ao destinatário pretendido.
 
