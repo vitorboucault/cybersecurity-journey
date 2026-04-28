@@ -1,0 +1,21 @@
+# Sintaxe
+
+- **SELECT:**
+  - Seleciona uma tabela especifica
+    - SELECT Drink
+    - SELECT Menu
+- **"*"**
+  - Seleciona todas as colunas quando usa
+    - SELECT *
+- **FROM:**
+  - Fala pro DB quais tabela usar
+    - SELECT Drink FROM Orders;
+- **WHERE:**
+  - Filtra as colunas escolhidas
+    - SELECT <**coluna**> WHERE <**coluna**> = 'item'
+- **ORDER BY:**
+  - Filtra resultados por coluna
+  - Escolhe uma coluna e assim ele filtra por padrão em ordem crescente
+    - SELECT <**coluna**> FROM <**table**> ORDER BY <**coluna**>;
+  - Filtra por ordem decrescente
+    - SELECT <**coluna**> FROM <**table**> ORDER BY <**coluna**> DESC;
