@@ -13,6 +13,10 @@ Existem 3 componentes cruciais para a rede funcionar e facilitar a comunicação
     3. Existem duas versões: ipv4 e ipv6
     4. Roteadores utilizam os endereços IP para determinar o caminho ideal para que o dado chegue ao destino
     5. Os endereços IP são flexíveis diferente do endereço MAC
+   6. **Endereços privados ficam nos ranges:**
+      7. 10.0.0.0 - 10.255.255.255 (10/8)
+      8. 172.16.0.0 - 172.31.255.255 (172.16/12)
+      9. 192.168.0.0 - 192.168.255.255 (192.168/16)
 3. **Portas**
     1. É o numero de um processo associado a um processo ou serviço em uma rede.
     2. Funciona na layer 4

@@ -19,3 +19,7 @@ Esse processo se chama DORA (Discover, offer, request, acknowledge)
 O IP que o dispositivo receber ele não é permanente, após 24h o dispositivo faz uma outra solicitação para continuar utilizando o IP.
 
 Então o cliente manda uma DHCP discorre, após o a resposta, ele manda um DHCP Request para confirmar
+
+- O IP de destino que o client usa ao enviar um pacote DHCP é 255.255.255.255
+- E o endereço de origem que o client utiliza para tentar obter a configuração do IP via DHCP é 0.0.0.0
+
